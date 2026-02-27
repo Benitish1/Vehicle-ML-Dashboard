@@ -33,15 +33,17 @@ development into one smooth system.
 
 ## 📂 Project Structure
 
+```
 Vehicle-ML-Dashboard/
-
- -config/           # Django project settings
- vehicles/         # Main app (views, urls, models)
- dummy_data/       # Sample dataset
- db.sqlite3        # Database
- manage.py         # Django management script
- requirements.txt  # Project dependencies
- .gitignore
+│
+├── config/           # Django project settings
+├── vehicles/         # Main app (views, urls, models)
+├── dummy_data/       # Sample dataset
+├── db.sqlite3        # Database
+├── manage.py         # Django management script
+├── requirements.txt  # Project dependencies
+└── .gitignore
+```
 ------------------------------------------------------------------------
 
 ## 🚀 Installation & Setup
