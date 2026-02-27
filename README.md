@@ -35,26 +35,26 @@ development into one smooth system.
 
 Vehicle-ML-Dashboard/
 
-# Django project settings
 config/
+    Django project settings
 
-# Main app (views, urls, models)
 vehicles/
+    Main app (views, urls, models)
 
-# Sample dataset
 dummy_data/
+    Sample dataset
 
-# SQLite database
 db.sqlite3
+    SQLite database
 
-# Django management script
 manage.py
+    Django management script
 
-# Project dependencies
 requirements.txt
+    Project dependencies
 
-# Ignored files
 .gitignore
+    Ignored files configuration
 ------------------------------------------------------------------------
 
 ## 🚀 Installation & Setup
