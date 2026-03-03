@@ -33,6 +33,7 @@ development into one smooth system.
 
 ## 📂 Project Structure
 
+```
 Vehicle-ML-Dashboard/
 │
 ├── config/           # Django project settings
@@ -42,6 +43,7 @@ Vehicle-ML-Dashboard/
 ├── manage.py         # Django management script
 ├── requirements.txt  # Project dependencies
 └── .gitignore
+```
 
 ------------------------------------------------------------------------
 

@@ -51,6 +51,31 @@
               href="#pivot-table"
               >Pivot Tables (Two-way)
             </a>
+            <a
+              class="list-group-item list-group-item-action"
+              href="#sunburst-chart"
+              >Sunburst Chart (Three-way)
+            </a>
+            <a
+              class="list-group-item list-group-item-action"
+              href="#treemap-chart"
+              >Treemap Chart (Three-way)
+            </a>
+            <a
+              class="list-group-item list-group-item-action"
+              href="#icircle-chart"
+              >Icircle Chart (Three-way)
+            </a>
+            <a
+              class="list-group-item list-group-item-action"
+              href="#frequency-bar-chart"
+              >Frequency Bar Chart (One-way)
+            </a>
+             <a
+              class="list-group-item list-group-item-action"
+              href="#sales-by-country"
+              >Sales by Country (One-way)
+            </a>
           </div>
         </div>
         <!-- Scrollable Content -->
@@ -90,6 +115,35 @@
               </div>
               <div class="card-body">{{ pivot_table|safe }}</div>
             </div>
+            <div id="sunburst-chart" class="card shadow mb-5">
+              <div class="card-header bg-info text-white">
+                Sunburst Chart (Three-way)
+              </div>
+              <div class="card-body">{{ sunburst_chart|safe }}</div>
+            </div>
+            <div id="treemap-chart" class="card shadow mb-5">
+              <div class="card-header bg-info text-white">
+                Treemap Chart (Three-way)
+              </div>
+              <div class="card-body">{{ treemap_chart|safe }}</div>
+            </div>
+            <div id="icircle-chart" class="card shadow mb-5">
+              <div class="card-header bg-info text-white">
+                Icircle Chart (Three-way)
+              </div>
+              <div class="card-body">{{ icircle_chart|safe }}</div>
+            </div>
+            <div id="frequency-bar-chart" class="card shadow mb-5">
+              <div class="card-header bg-info text-white">
+                Frequency Bar Chart (One-way)
+              </div>
+              <div class="card-body">{{ frequency_bar_chart|safe }}</div>
+            </div>
+            <div id="sales-by-country" class="card shadow mb-5">
+              <div class="card-header bg-info text-white">
+                Sales by Country (One-way)
+              </div>
+              <div class="card-body">{{ sales_by_country|safe }}</div>
           </div>
         </div>
         
